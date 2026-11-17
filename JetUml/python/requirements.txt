@@ -1,0 +1,8 @@
+# JetUML — dependências Python (testado com Python 3.10+)
+# Instalação: pip install -r requirements.txt
+
+PyQt5==5.15.9
+PyQt5-Qt5==5.15.2
+PyQt5_sip==12.17.0
+Pillow==12.2.0
+# SVG na exportação usa o módulo QtSvg (incluído no PyQt5)

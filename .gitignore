@@ -1,0 +1,25 @@
+# Compilação Java
+**/build/
+**/out/
+**/*.class
+
+# Gradle (cache local; o wrapper em gradle/wrapper permanece)
+**/.gradle/
+
+# IDEs
+**/.idea/
+*.iml
+**/.vscode/
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/*.egg-info/
+
+# Sistema
+Thumbs.db
+.DS_Store
+Desktop.ini
