@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#jetuml"><img alt="JetUML" src="https://img.shields.io/badge/JetUML-diagramas%20UML-1F4E79?style=for-the-badge"></a>
-  <a href="#solitaire"><img alt="Solitaire" src="https://img.shields.io/badge/Solitaire-Klondike-1B7F4E?style=for-the-badge"></a>
+  <a href="#solitaire"><img alt="Solitaire" src="https://img.shields.io/badge/Solitaire-1B7F4E?style=for-the-badge"></a>
   <a href="#jetuml-java"><img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"></a>
   <a href="#solitaire-python"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
 </p>
@@ -23,6 +23,7 @@ A análise olha a arquitetura e a organização dos projetos, encapsulamento, co
 | Código | [JetUML Java](JetUml/Java) · [JetUML Python](JetUml/python) · [Solitaire Java](Solitaire/Solitaire%20-%20Java) · [Solitaire Python](Solitaire/Solitaire%20-%20Python) |
 | Execução | [Requisitos e como rodar](#instalacao) |
 | Estudo | [O que foi avaliado](#analise) · [Requisitos e conversas](#materiais) |
+| Relatório | [Seção](#relatorio) · [Abrir o PDF](relatorio.pdf) |
 
 ---
 
@@ -39,9 +40,10 @@ O repositório guarda as quatro implementações geradas para o estudo. As vers�
 ├── JetUml
 │   ├── Java          editor UML em Java (Swing)
 │   └── python        editor UML em Python (PyQt5)
-└── Solitaire
-    ├── Solitaire - Java      paciência em Java (JavaFX + Gradle)
-    └── Solitaire - Python    paciência em Python (pygame-ce)
+├── Solitaire
+│   ├── Solitaire - Java      paciência em Java (JavaFX + Gradle)
+│   └── Solitaire - Python    paciência em Python (pygame-ce)
+└── relatorio.pdf     relatório do estudo
 ```
 
 | Sistema | Linguagem | Pasta | Ponto de entrada |
@@ -277,6 +279,22 @@ As quatro implementações partem dos mesmos requisitos e servem de material par
 - aplicação de SOLID, Clean Code e padrões de projeto;
 - diferenças de qualidade e de manutenibilidade entre Java e Python;
 - influência da engenharia de prompts no código produzido.
+
+</details>
+
+<a id="relatorio"></a>
+<details>
+<summary><b>Relatório</b></summary>
+
+<br>
+
+O texto completo do estudo fica fora deste README, no PDF da raiz do repositório.
+
+| Documento | Onde abrir |
+| --- | --- |
+| Relatório (19/11/2026) | [relatorio.pdf](relatorio.pdf) |
+
+O arquivo reúne a comparação entre as quatro implementações e as versões de referência, com a análise de arquitetura, SOLID, Clean Code e o efeito dos prompts.
 
 </details>
 

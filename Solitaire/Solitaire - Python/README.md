@@ -1,6 +1,6 @@
 # Paciência Klondike (Python 3 + pygame-ce)
 
-Jogo completo de Paciência Klondike, com interface renderizada 100% pelo Pygame
+Jogo completo de Paciência Klondike, com interface renderizada pelo Pygame
 (cartas desenhadas por código, sem imagens externas) e funcionamento offline.
 
 ## Instalação e execução

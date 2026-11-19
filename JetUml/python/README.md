@@ -1,6 +1,6 @@
 # JetUML (Python)
 
-Editor de diagramas UML inspirado no JetUML, implementado com **PyQt5**.
+Editor de diagramas UML no estilo do JetUML, implementado com **PyQt5**.
 
 ## Instalação e execução
 
